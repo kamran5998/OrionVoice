@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orion Voice Assistant</string>
+    <string name="accessibility_service_description">Voice Controller app ko phone control karne ke liye accessibility service chahiye. Ye service aapke phone ke functions ko voice commands se control karti hai.</string>
+</resources>

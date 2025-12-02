@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voice Controller"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:textColor="#2196F3" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_mic"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/circle_background"
+        android:padding="24dp" />
+
+    <Button
+        android:id="@+id/startListeningButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Start Listening"
+        android:textSize="16sp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voice Controller ready"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="@drawable/status_background"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Background Service Active!\n\nWake Word: 'Orion'\n\nCommands:\n• 'Orion' (wake up)\n• 'WhatsApp kholo'\n• 'Call receive karo'\n• 'Call reject karo'\n• 'Speaker on karo'\n• 'Screenshot lo'\n• 'Camera kholo'\n\nApp close kar sakte hain!"
+        android:textSize="12sp"
+        android:padding="16dp"
+        android:background="@drawable/help_background"
+        android:textColor="#666666" />
+
+</LinearLayout>
